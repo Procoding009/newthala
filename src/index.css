@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+@keyframes pop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Apply animation to button */
+.animate-pop {
+  animation: pop 1s infinite ease-in-out;
+}
+
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Move up by 10px */
+  }
+}
+
+/* Apply animation */
+.animate-updown {
+  animation: upDown 1s infinite ease-in-out;
+}
