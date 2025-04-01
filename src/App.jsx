@@ -15,7 +15,6 @@ const App = () => {
         <p className=' p-3'>GET YOUR !D NOW ON WHATSAPP👇🏼</p>
         <p className=" text-1xl mb-4 animate-updown"> 👇👇</p>
 
-
         <a
           href={whatsappUrl}
           target="_blank"
@@ -28,7 +27,8 @@ const App = () => {
         </a>
         <div className='p-10'>
           <a href={whatsappUrl} target='self'>
-            <img src="/src/assets/h1.png" alt="image" className='w-100' />
+            <img src="/images/h1.png" alt="image" className='w-100' />
+
           </a>
         </div>
         <div className='flex-col justify-between'>
