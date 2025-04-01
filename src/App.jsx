@@ -13,9 +13,7 @@ const App = () => {
       <a href={whatsappUrl} target="_self">
             <img src="/images/logo.jpeg" alt="image" className=" w-100 rounded-lg shadow-lg" />
           </a>
-        <h1 className="text-3xl sm:text-4xl font-bold text-yellow-400 p-4 md:p-10 text-center">
- THALAPATHY ONLINE<br/> BOOK
-        </h1>
+       
         <p className='p-2 sm:p-3 text-center'>GET YOUR !D NOW ON WHATSAPP👇🏼</p>
         <p className="text-lg mb-4 animate-updown">👇👇</p>
         <a
@@ -32,7 +30,7 @@ const App = () => {
         
         <div className="p-5 sm:p-10 w-full max-w-xs sm:max-w-md">
           <a href={whatsappUrl} target="_self">
-            <img src="/images/h1.png" alt="image" className="w-full rounded-lg shadow-lg" />
+            <img src="/images/h1.jpeg" alt="image" className="w-full rounded-lg shadow-lg" />
           </a>
         </div>
 
