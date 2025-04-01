@@ -10,16 +10,14 @@ const App = () => {
     <>
       <div className="bg-[#0f1b31] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
         
-        <p className="text-md sm:text-lg mb-2 text-center">
-          || INDIA'S MOST TRUSTED <br /> & OLDEST BOOK ||
-        </p>
+      <a href={whatsappUrl} target="_self">
+            <img src="/images/logo.jpeg" alt="image" className=" w-100 rounded-lg shadow-lg" />
+          </a>
         <h1 className="text-3xl sm:text-4xl font-bold text-yellow-400 p-4 md:p-10 text-center">
-            THALAPATHYONLINEBOOK
+            Thala Pathy online <br/> book
         </h1>
         <p className='p-2 sm:p-3 text-center'>GET YOUR !D NOW ON WHATSAPP👇🏼</p>
         <p className="text-lg mb-4 animate-updown">👇👇</p>
-
-
         <a
           href={whatsappUrl}
           target="_blank"
@@ -38,7 +36,16 @@ const App = () => {
           </a>
         </div>
 
-        
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#25d366] hover:bg-green-500 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full flex items-center gap-2 text-lg transition-transform duration-300 hover:scale-105 animate-pop"
+        >
+          <FaWhatsapp className="text-2xl" />
+          Whatsapp Now
+          <FaWhatsapp className="text-2xl" />
+        </a>
         <div className="flex flex-col justify-between text-center space-y-2 sm:space-y-4">
           <p className="p-2">GET 10% BONUS ON FIRST DEPOSIT</p>
           <p className="p-2">24/7 WITHDRAWAL & DEPOSIT</p>
