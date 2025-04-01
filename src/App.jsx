@@ -14,7 +14,7 @@ const App = () => {
             <img src="/images/logo.jpeg" alt="image" className=" w-100 rounded-lg shadow-lg" />
           </a>
         <h1 className="text-3xl sm:text-4xl font-bold text-yellow-400 p-4 md:p-10 text-center">
-            Thala Pathy online <br/> book
+ THALAPATHY ONLINE<br/> BOOK
         </h1>
         <p className='p-2 sm:p-3 text-center'>GET YOUR !D NOW ON WHATSAPP👇🏼</p>
         <p className="text-lg mb-4 animate-updown">👇👇</p>
