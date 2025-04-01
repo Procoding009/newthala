@@ -53,7 +53,15 @@ const App = () => {
           <p className="p-2 text-yellow-300">विश्वास का धंदा विश्वास के साथ |</p>
           <p className="p-2 text-yellow-300">| पैसा आपका भरोसा हमारा</p>
         </div>
+        <footer className="w-full text-center text-xs sm:text-sm text-gray-400 mt-10 py-4 border-t border-gray-600 px-6">
+  <p>18+ | Gamble Responsibly. This game involves financial risk and may be addictive.</p>
+  <p>Please gamble responsibly and only with money you can afford to lose.</p>
+  <p>If you or someone you know has a gambling problem, please seek help.</p>
+  <p className="mt-2 font-semibold text-white">📞 Contact Us</p>
+</footer>
+
       </div>
+
     </>
   )
 }
