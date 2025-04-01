@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <>
-      <div className="bg-[#0f1b31] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
+      <div className="bg-[#0b0b0b] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
         
       <a href={whatsappUrl} target="_self">
             <img src="/images/logo.jpeg" alt="image" className=" w-100 rounded-lg shadow-lg" />
