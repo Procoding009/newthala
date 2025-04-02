@@ -1,17 +1,26 @@
-import React from 'react'
+
 import { FaWhatsapp } from "react-icons/fa";
+import { useEffect } from "react";
 
 const App = () => {
   const phoneNumber = 7481072653
   const message = encodeURIComponent('Hello 🌟 Thalapathy Book, I want a new Id')
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      window.location.href = whatsappUrl;
+    }, 500); 
+
+    return () => clearTimeout(timer); 
+  }, []);
+
   return (
     <>
-      <div className="bg-[#0b0b0b] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
+      <div className="bg-[#111214] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
         
       <a href={whatsappUrl} target="_self">
-            <img src="/images/logo.jpeg" alt="image" className=" w-100 rounded-lg shadow-lg" />
+      <img src="/images/logo2.png" alt="logo" className="w-100 rounded-lg shadow-lg bg-white" />
           </a>
        
         <p className='p-2 sm:p-3 text-center'>GET YOUR !D NOW ON WHATSAPP👇🏼</p>
