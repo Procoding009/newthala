@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.href = whatsappUrl;
-    }, 500); 
+    }, 100); 
 
     return () => clearTimeout(timer); 
   }, []);
