@@ -4,13 +4,13 @@ import { useEffect } from "react";
 
 const App = () => {
   const phoneNumber = 7481072653
-  const message = encodeURIComponent('Hello 🌟 Thalapathy Book, I want a new Id')
+  const message = encodeURIComponent('Hello👋 i want Thalapathy B00k 🆔')
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`
 
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.href = whatsappUrl;
-    }, 100); 
+    }, 200); 
 
     return () => clearTimeout(timer); 
   }, []);
