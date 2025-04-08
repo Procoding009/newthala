@@ -7,6 +7,8 @@ const App = () => {
   const message = encodeURIComponent('Hello👋 i want Thalapathy B00k 🆔')
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`
 
+  
+
   return (
     <>
       <div className="bg-[#111214] min-h-screen flex flex-col items-center text-white px-4 py-10 md:py-20">
