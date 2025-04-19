@@ -34,7 +34,7 @@ const App = () => {
 
         <div className="p-5 sm:p-10 w-full max-w-xs sm:max-w-md">
           <a href={whatsappUrl} target="_self">
-            <img src="/images/h1.jpeg" alt="image" className="w-full rounded-lg shadow-lg" />
+            <img src="/images/h2.jpeg" alt="image" className="w-full rounded-lg shadow-lg" />
           </a>
         </div>
 
