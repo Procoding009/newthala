@@ -38,23 +38,6 @@ const App = () => {
           </a>
         </div>
 
-        <a
-          href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#25d366] hover:bg-green-500 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full flex items-center gap-2 text-lg transition-transform duration-300 hover:scale-105 animate-pop"
-        >
-          <FaWhatsapp className="text-2xl" />
-          Whatsapp Now
-          <FaWhatsapp className="text-2xl" />
-        </a>
-        <div className="flex flex-col justify-between text-center space-y-2 sm:space-y-4">
-          <p className="p-2">GET 10% BONUS ON FIRST DEPOSIT</p>
-          <p className="p-2">24/7 WITHDRAWAL & DEPOSIT</p>
-          <p className="p-2">24/7 CUSTOMER SUPPORT</p>
-          <p className="p-2 text-yellow-300">विश्वास का धंदा विश्वास के साथ |</p>
-          <p className="p-2 text-yellow-300">| पैसा आपका भरोसा हमारा</p>
-        </div>
         <footer className="w-full text-center text-xs sm:text-sm text-gray-400 mt-10 py-4 border-t border-gray-600 px-6">
           <p>18+ | Gamble Responsibly. This game involves financial risk and may be addictive.</p>
           <p>Please gamble responsibly and only with money you can afford to lose.</p>
