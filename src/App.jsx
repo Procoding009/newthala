@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 const App = () => {
-  const phoneNumber = '+919004924579'
+  const phoneNumber = '+918890739065'
   const message = encodeURIComponent('Hello👋 i want Thalapathy B00k 🆔')
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`
 
@@ -37,7 +37,8 @@ const App = () => {
             <img src="/images/h4.jpeg" alt="image" className="w-full rounded-lg shadow-lg" />
           </a>
         </div>
-
+       <div>
+       </div>
         <footer className="w-full text-center text-xs sm:text-sm text-gray-400 mt-10 py-4 border-t border-gray-600 px-6">
           <p>18+ | Gamble Responsibly. This game involves financial risk and may be addictive.</p>
           <p>Please gamble responsibly and only with money you can afford to lose.</p>
