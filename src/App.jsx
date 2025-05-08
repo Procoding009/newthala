@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 const App = () => {
-  const phoneNumber = '+918126579278'
+  const phoneNumber = '+12097649470'
   const message = encodeURIComponent('Hello👋 i want Thalapathy B00k 🆔')
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${message}`
 
